@@ -1,5 +1,14 @@
 *{margin:0; padding:0; box-sizing: border-box;}
 body{font-family: sans-serif;}
+
 header{display: flex; align-items: center;
   justify-content: space-between;}
-header nav a{margin-left: 20px;}
+
+nav ul{display: flex;list-style: none;}
+
+header nav a
+{margin-left: 20px;
+text-decoration: none;color: #333; padding: 10px 15px;}
+
+@media ( max-width: 768px)
+{nav ul {flex-direction:column} ;}
