@@ -2,13 +2,50 @@
 body{font-family: sans-serif;}
 
 header{display: flex; align-items: center;
-  justify-content: space-between;}
+  justify-content: space-between;
+background-color: #cc5500;}
+header h1{
+  color: #ffffff;
+}
 
 nav ul{display: flex;list-style: none;}
 
 header nav a
 {margin-left: 20px;
-text-decoration: none;color: #333; padding: 10px 15px;}
+text-decoration: none;color: #ffffff; padding: 10px 15px;}
 
 @media ( max-width: 768px)
 {nav ul {flex-direction:column} ;}
+
+#Hero{height: 100vh;
+background-color: #cc5500; display: flex;
+flex-direction: column;
+justify-content: center; align-items: center;
+background-image: url('istockphoto-2220114234-612x612.jpg');
+
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;}
+
+#Hero h1{
+  font-size: 48px;
+}
+#Hero p{font-size: 18px;
+line-height: 1.5;
+max-width: 600px;
+margin-bottom: 30px;
+text-align: center;
+color: white;}
+
+#Hero a{ display:inline-block;
+text-decoration: none;
+background-color: white;
+color: #cc5500;
+padding: 12px 24px;
+border-radius: 5px;
+}
+
+#Hero a:Hover{
+  background-color: #A74000;
+  transition: background-color 0.3s ease ;
+}
